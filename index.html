@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Zero Point: A Suprematist Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="grain"></div>
+    <button id="statement-btn">ARTIST'S STATEMENT</button>
+    <div id="modal">
+        <h1>Artist's Statement - Matthew Weaver</h1>
+        <p>
+        The inspiration for this is ideas expressed through the non-objective approach to art taken
+by Kazimir Malevich and the industrial idealism represented by El Lissitzky. It was intriguing to
+me how an elementary form such as a square, circle, or wedge could represent an entire country
+or a philosophical notion. I found myself particularly interested in Lissitzky’s Prouns as my
+guide, I wanted to see whether the static energy of a propaganda poster could be recreated in a
+dynamic web page.
+        </p>
+        <p>
+        This is a digital representation of the Russian Avant-Garde. The colors used are red,
+black, gold, and beige which are similar to the lithographs of Constructivists. The Red Circle is
+used as the central part of the artwork which symbolizes the collective soul of the nation. The
+Black Square symbolizes Malevich’s Zero Point where art starts and ends. The Triangles are
+used to show the influence of Red Wedge which symbolizes the erratic and sharp energy of the
+individual. The diagonal planks are the girders of constructivist construction in this artwork. By
+restraining them to one axis only, I am referring to the rigidness of Russian Machine Age in
+1920s. Using all these shapes was my attempt at participating in the tradition of Russian
+polyphonic abstractionism.
+        </p>
+        <p>
+        The medium for this is an Interactive Web Page. Instead of presenting works of art via a
+webpage, the webpage itself is the art. The chosen genre of Neo-Constructivism which relies
+heavily on interactivity
+        </p>
+        <p>
+        For the process, I was interested in the weight of objects. I wanted to make sure the
+motion of the objects wasn’t perfect. I used Interpolation and delay to provide each object with
+its unique motion style. For example, Red Circle was made to have high inertia to illustrate the
+movement of history which is heavy. Black Square was given to pull into the center representing
+the gravity of tradition. Triangles were forced to flee away from the cursor representing the
+struggle between desire for freedom and outer powers.
+        </p>
+        <button id="close-btn" onclick="document.getElementById('modal').style.display='none'">CLOSE</button>
+    </div>
+    <div class="shape red-circle" id="circle"></div>
+    <div class="shape black-square" id="square"></div>
+    <div class="shape plank" id="plank1" style="top: 70%; left: 15%;"></div>
+    <div class="shape plank red-plank" id="plank2"></div>
+    <div class="shape triangle" id="tri1" style="top: 15%; left: 20%; transform: rotate(-15deg);"></div>
+    <div class="shape triangle" id="tri2" style="top: 75%; left: 85%; transform: rotate(140deg);"></div>
+    <div class="shape triangle" id="tri3" style="top: 60%; left: 15%; transform: rotate(45deg);"></div>
+    <div class="shape triangle" id="tri4" style="top: 15%; left: 90%; transform: rotate(110deg);"></div>
+</body>
+<script src="script.js"></script>
+</html>
